@@ -1,0 +1,11 @@
+docker compose up -d
+
+docker exec -it mysql mysql -p1234
+
+use sa2;
+
+show tables; 
+
+select * from course;
+
+
